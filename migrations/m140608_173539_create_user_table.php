@@ -21,6 +21,8 @@ class m140608_173539_create_user_table extends Migration
 		$this->createTable($tablename, array(
 			'id'                 => 'pk',
 			'username'           => 'string not null',
+		    'full_name'          => 'string not null',
+		    'external_id'        => 'string',
 			'auth_key'           => 'varchar(32) not null',
 			'password_hash'      => 'string not null',
 			'confirmation_token' => 'string',
