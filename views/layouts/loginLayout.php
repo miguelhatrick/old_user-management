@@ -7,7 +7,7 @@ use yii\helpers\Html;
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-$this->title = UserManagementModule::t('front', 'Authorization');
+$this->title = Yii::$app->name . ' ' . UserManagementModule::t('front', 'Authorization');
 BootstrapAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
