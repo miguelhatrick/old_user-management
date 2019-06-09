@@ -1,12 +1,12 @@
 <?php
 
-use webvimark\modules\UserManagement\UserManagementModule;
+use miguelhatrick\modules\UserManagement\UserManagementModule;
 use yii\bootstrap\ActiveForm;
 use yii\helpers\Html;
 
 /**
  * @var yii\web\View $this
- * @var webvimark\modules\UserManagement\models\forms\ConfirmEmailForm $model
+ * @var miguelhatrick\modules\UserManagement\models\forms\ConfirmEmailForm $model
  */
 
 $this->title = UserManagementModule::t('front', 'Confirm E-mail');

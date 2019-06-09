@@ -1,8 +1,8 @@
 <?php
-namespace webvimark\modules\UserManagement\models\forms;
+namespace miguelhatrick\modules\UserManagement\models\forms;
 
-use webvimark\modules\UserManagement\models\User;
-use webvimark\modules\UserManagement\UserManagementModule;
+use miguelhatrick\modules\UserManagement\models\User;
+use miguelhatrick\modules\UserManagement\UserManagementModule;
 use yii\base\Model;
 use Yii;
 use yii\helpers\Html;
@@ -26,7 +26,7 @@ class RegistrationForm extends Model
 			[['username', 'password', 'repeat_password'], 'trim'],
 
 			['username', 'unique',
-				'targetClass'     => 'webvimark\modules\UserManagement\models\User',
+				'targetClass'     => 'miguelhatrick\modules\UserManagement\models\User',
 				'targetAttribute' => 'username',
 			],
 

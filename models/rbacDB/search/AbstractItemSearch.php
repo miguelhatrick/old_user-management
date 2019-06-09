@@ -1,10 +1,10 @@
 <?php
 
-namespace webvimark\modules\UserManagement\models\rbacDB\search;
+namespace miguelhatrick\modules\UserManagement\models\rbacDB\search;
 
-use webvimark\modules\UserManagement\models\rbacDB\AbstractItem;
-use webvimark\modules\UserManagement\models\rbacDB\Permission;
-use webvimark\modules\UserManagement\models\rbacDB\Role;
+use miguelhatrick\modules\UserManagement\models\rbacDB\AbstractItem;
+use miguelhatrick\modules\UserManagement\models\rbacDB\Permission;
+use miguelhatrick\modules\UserManagement\models\rbacDB\Role;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;

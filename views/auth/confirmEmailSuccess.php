@@ -1,11 +1,11 @@
 <?php
 
-use webvimark\modules\UserManagement\UserManagementModule;
+use miguelhatrick\modules\UserManagement\UserManagementModule;
 use yii\helpers\Html;
 
 /**
  * @var yii\web\View $this
- * @var webvimark\modules\UserManagement\models\User $user
+ * @var miguelhatrick\modules\UserManagement\models\User $user
  */
 
 $this->title = UserManagementModule::t('front', 'E-mail confirmed');

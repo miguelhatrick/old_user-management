@@ -9,8 +9,8 @@
  * @var yii\rbac\Permission $item
  */
 
-use webvimark\modules\UserManagement\components\GhostHtml;
-use webvimark\modules\UserManagement\UserManagementModule;
+use miguelhatrick\modules\UserManagement\components\GhostHtml;
+use miguelhatrick\modules\UserManagement\UserManagementModule;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 

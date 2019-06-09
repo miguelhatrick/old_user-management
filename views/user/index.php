@@ -1,9 +1,9 @@
 <?php
 
-use webvimark\modules\UserManagement\components\GhostHtml;
-use webvimark\modules\UserManagement\models\rbacDB\Role;
-use webvimark\modules\UserManagement\models\User;
-use webvimark\modules\UserManagement\UserManagementModule;
+use miguelhatrick\modules\UserManagement\components\GhostHtml;
+use miguelhatrick\modules\UserManagement\models\rbacDB\Role;
+use miguelhatrick\modules\UserManagement\models\User;
+use miguelhatrick\modules\UserManagement\UserManagementModule;
 use yii\helpers\Html;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Url;
@@ -15,7 +15,7 @@ use yii\grid\GridView;
 /**
  * @var yii\web\View $this
  * @var yii\data\ActiveDataProvider $dataProvider
- * @var webvimark\modules\UserManagement\models\search\UserSearch $searchModel
+ * @var miguelhatrick\modules\UserManagement\models\search\UserSearch $searchModel
  */
 
 $this->title = UserManagementModule::t('back', 'Users');

@@ -1,9 +1,9 @@
 <?php
 
-namespace webvimark\modules\UserManagement\components;
+namespace miguelhatrick\modules\UserManagement\components;
 
-use webvimark\modules\UserManagement\models\rbacDB\Route;
-use webvimark\modules\UserManagement\models\User;
+use miguelhatrick\modules\UserManagement\models\rbacDB\Route;
+use miguelhatrick\modules\UserManagement\models\User;
 use yii\base\Action;
 use Yii;
 use yii\base\ActionFilter;

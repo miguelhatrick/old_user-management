@@ -1,6 +1,6 @@
 <?php
 
-namespace webvimark\modules\UserManagement;
+namespace miguelhatrick\modules\UserManagement;
 
 use Yii;
 use yii\helpers\ArrayHelper;
@@ -68,7 +68,7 @@ class UserManagementModule extends \yii\base\Module
 	 *
 	 * @var string
 	 */
-	public $registrationFormClass = 'webvimark\modules\UserManagement\models\forms\RegistrationForm';
+	public $registrationFormClass = 'miguelhatrick\modules\UserManagement\models\forms\RegistrationForm';
 
 	/**
 	 * After how many seconds confirmation token will be invalid
@@ -183,7 +183,7 @@ class UserManagementModule extends \yii\base\Module
 	public $auth_assignment_table = '{{%auth_assignment}}';
 	public $auth_rule_table = '{{%auth_rule}}';
 
-	public $controllerNamespace = 'webvimark\modules\UserManagement\controllers';
+	public $controllerNamespace = 'miguelhatrick\modules\UserManagement\controllers';
 
 	/**
 	 * @p
