@@ -2,7 +2,7 @@
 
 namespace miguelhatrick\modules\UserManagement\controllers;
 
-use webvimark\components\BaseController;
+use miguelhatrick\modules\UserManagement\components\BaseController;
 use miguelhatrick\modules\UserManagement\models\rbacDB\Permission;
 use miguelhatrick\modules\UserManagement\models\rbacDB\Role;
 use miguelhatrick\modules\UserManagement\models\User;

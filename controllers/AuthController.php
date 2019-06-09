@@ -2,7 +2,7 @@
 
 namespace miguelhatrick\modules\UserManagement\controllers;
 
-use webvimark\components\BaseController;
+use miguelhatrick\modules\UserManagement\components\BaseController;
 use miguelhatrick\modules\UserManagement\components\UserAuthEvent;
 use miguelhatrick\modules\UserManagement\models\forms\ChangeOwnPasswordForm;
 use miguelhatrick\modules\UserManagement\models\forms\ConfirmEmailForm;
