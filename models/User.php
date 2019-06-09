@@ -17,6 +17,10 @@ use yii\behaviors\TimestampBehavior;
  *
  * @property integer $id
  * @property string $username
+ * @property string $fullname
+ * @property string $external_id
+ * @property string $image
+ * @property string $info 
  * @property string $email
  * @property integer $email_confirmed
  * @property string $auth_key
@@ -253,6 +257,7 @@ class User extends UserIdentity
 			['username', 'trim'],
 
 			[['status', 'email_confirmed'], 'integer'],
+		       
 
 			['email', 'email'],
 			['email', 'validateEmailConfirmedUnique'],
