@@ -322,6 +322,7 @@ class User extends UserIdentity
 		return [
 			'id'                 => 'ID',
 			'username'           => UserManagementModule::t('back', 'Login'),
+		    'fullname'           => UserManagementModule::t('back', 'Full Name'),
 			'superadmin'         => UserManagementModule::t('back', 'Superadmin'),
 			'confirmation_token' => UserManagementModule::t('back', 'Confirmation Token'),
 			'registration_ip'    => UserManagementModule::t('back', 'Registration IP'),
