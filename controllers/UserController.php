@@ -2,7 +2,7 @@
 
 namespace miguelhatrick\modules\UserManagement\controllers;
 
-use webvimark\components\AdminDefaultController;
+use miguelhatrick\webvimarkcomponents\AdminDefaultController;
 use Yii;
 use miguelhatrick\modules\UserManagement\models\User;
 use miguelhatrick\modules\UserManagement\models\search\UserSearch;

@@ -5,7 +5,7 @@ namespace miguelhatrick\modules\UserManagement\controllers;
 use miguelhatrick\modules\UserManagement\models\rbacDB\AuthItemGroup;
 use miguelhatrick\modules\UserManagement\models\rbacDB\search\AuthItemGroupSearch;
 use Yii;
-use webvimark\components\AdminDefaultController;
+use miguelhatrick\webvimarkcomponents\AdminDefaultController;
 
 /**
  * AuthItemGroupController implements the CRUD actions for AuthItemGroup model.

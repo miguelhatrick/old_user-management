@@ -6,7 +6,7 @@ use miguelhatrick\modules\UserManagement\components\AuthHelper;
 use miguelhatrick\modules\UserManagement\models\rbacDB\Permission;
 use miguelhatrick\modules\UserManagement\models\rbacDB\Role;
 use miguelhatrick\modules\UserManagement\models\rbacDB\search\RoleSearch;
-use webvimark\components\AdminDefaultController;
+use miguelhatrick\webvimarkcomponents\AdminDefaultController;
 use miguelhatrick\modules\UserManagement\UserManagementModule;
 use Yii;
 use yii\rbac\DbManager;
