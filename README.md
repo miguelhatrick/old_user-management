@@ -1,3 +1,10 @@
+Con un panel nuevo usar:
+
+php yii migrate --migrationPath=vendor/miguelhatrick/module-user-management/migrations/
+
+
+
+
 User management module for Yii 2
 =====
 
